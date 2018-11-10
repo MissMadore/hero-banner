@@ -6,3 +6,21 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.img-flex {
+  display: flex;
+  width: 100%;
+  position: absolute;
+}
+
+.card {
+
+}
+
+.card-body {
+  position: relative;
+  bottom: 0;
+}
+
+.card-content {
+}
