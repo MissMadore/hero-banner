@@ -1,26 +1,42 @@
 html {
   box-sizing: border-box;
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .img-flex {
-  display: flex;
   width: 100%;
+  display: flex;
+}
+
+.card-background {
   position: absolute;
+  max-height: 500px;
 }
 
-.card {
-
-}
-
-.card-body {
+.banner {
   position: relative;
-  bottom: 0;
+  max-width: 50em;
+  margin: 0 1rem;
+}
+
+.card-title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+  margin: 0;
 }
 
 .card-content {
+  font-size: 2rem;
+  font-style: italic;
 }
