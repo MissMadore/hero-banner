@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -14,18 +15,26 @@ body {
 
 .img-flex {
   width: 100%;
-  display: flex;
+  display: block;
+}
+
+.card {
+  position: relative;
+  text-align: center;
 }
 
 .card-background {
-  position: absolute;
   max-height: 500px;
+  overflow: hidden;
 }
 
 .banner {
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  max-height: 500px;
   max-width: 50em;
   margin: 0 1rem;
+  text-align: left;
 }
 
 .card-title {
@@ -33,10 +42,12 @@ body {
   font-weight: bold;
   color: #fff;
   background-color: rgba(0, 0, 0, .5);
-  margin: 0;
+  margin: .5rem;
 }
 
 .card-content {
   font-size: 2rem;
   font-style: italic;
+  margin-left: .5rem;
+
 }
