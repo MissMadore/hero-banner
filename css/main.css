@@ -33,8 +33,11 @@ body {
   bottom: 0;
   max-height: 500px;
   max-width: 50em;
-  margin: 0 1rem;
+  width: 100%;
+  padding: 0 1.5rem;
   text-align: left;
+  transform: translateX(-50%);
+  left: 50%;
 }
 
 .card-title {
@@ -42,12 +45,13 @@ body {
   font-weight: bold;
   color: #fff;
   background-color: rgba(0, 0, 0, .5);
-  margin: .5rem;
+  display: inline;
+  line-height: 1.4;
 }
 
 .card-content {
   font-size: 2rem;
   font-style: italic;
-  margin-left: .5rem;
-
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
 }
